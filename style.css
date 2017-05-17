@@ -1,0 +1,25 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+
+@import url('normalize.css');
+
+
+
+.row{
+	text-align: center;
+}
+
+.span12{
+	text-align: center;
+}
+
+.col-md-4{
+	text-align: center;
+}
+
+.col-md-2{
+
+	text-align: center;
+}
