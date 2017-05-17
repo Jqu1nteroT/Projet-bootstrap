@@ -1,25 +1,30 @@
-html{
-	margin: 0;
-	padding: 0;
-}
-
 @import url('normalize.css');
 
-
-
-.row{
+body{
+	font-family: arial;
+	font-size: 21px;
 	text-align: center;
+	height: auto;
 }
 
-.span12{
-	text-align: center;
+/*header*/
+
+nav{
+	height: 10%;
 }
 
-.col-md-4{
-	text-align: center;
+.navbar{
+	padding-top: 1%;
 }
 
-.col-md-2{
+/*accueil*/
 
-	text-align: center;
+.jumbotron{
+	height: 800px;
+	background-image: url('Mordecai_y_los_Rigbys_-_1.png');
+	
+}
+
+.news{
+	background-color: black;
 }
