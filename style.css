@@ -1,3 +1,4 @@
+
 @import url('normalize.css');
 
 
@@ -100,4 +101,21 @@ nav{
 	padding-top: 8.5%;
 }
 
+
+.row{
+	text-align: center;
+}
+
+.span12{
+	text-align: center;
+}
+
+.col-md-4{
+	text-align: center;
+}
+
+.col-md-2{
+
+	text-align: center;
+}
 
