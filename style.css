@@ -1,9 +1,12 @@
-
 @import url('normalize.css');
 
-
+@font-face {
+	font-family:"Hipster";
+	src:url(Lobster-Regular.ttf);
+}
 
 body{
+	font-family: "Hipster";
 	font-size: 16px;
 	text-align: center;
 	height: auto;
@@ -13,6 +16,10 @@ body{
 	background-color: black;
 
 }
+/*img{
+	width: 100%;
+	height: auto;
+}*/
 
 strong{
 	font-size: 1.5em;
@@ -20,10 +27,35 @@ strong{
 	
 }
 
+ul{
+	text-align: left;
+}
+
+h1{
+	margin-bottom: 30px;
+	font-size: 3em;
+}
+
+h2{
+	margin-bottom: 30px;
+	font-size: 2em;
+}
+
+iframe{
+	width: 650px;
+	height: auto;
+	border:black 2px solid;
+}
+
+label{
+	color:black;
+}
+
 /*header*/
 
 nav{
 	height: 15%;
+	font-size: 2em;
 }
 
 .navbar-brand{
@@ -46,10 +78,11 @@ nav{
 
 .logoB{
 	width: 140px;
-	height: 110.89px;
+	height: auto;
 	margin-left: 40px;
-	
+	margin-top: 10px;
 }
+
 /*accueil*/
 
 .jumbotron{
@@ -58,19 +91,20 @@ nav{
 	background-attachment: fixed;
 	background-size: cover;
 	margin-bottom: 0;
-	padding-top: 8.5%;
+	padding-top: 9%;
 }
 
 .logo{
 	width: 400px;
 	height: 10%;
 	margin: 0 auto;
+	margin-bottom: 10px;
 }	
 
 .news{
 	background: linear-gradient(to bottom, grey, white);
 	width: 35%;
-	height: auto;
+	height: 300px;
 	border-radius: 15px 15px 15px 15px;
 	margin-top: 0;	
 	padding-top: 20px;
@@ -91,6 +125,8 @@ nav{
 	padding-top: 5px;
 	padding-bottom: 0;
 	text-align: left;
+	line-height: normal;
+	
 }
 
 /*carte*/
@@ -98,24 +134,111 @@ nav{
 #carte{
 	height: 850px;
 	background: linear-gradient(to bottom, #F1F1F1, white);
-	padding-top: 8.5%;
+	padding-top: 7%;
+}
+
+.menusi{
+	width: 200px;
+	height: 150px;
+}
+
+.badge{
+	color: black;
+	background-color: #c6c2c2;
+}
+
+.menus{
+	border-radius: 15px 15px 15px 15px;
+	background: linear-gradient(to top, grey, white);
+	margin-top: 30px;
+}
+
+/*Photos*/
+
+#photos{
+	height: 850px;
+	background-image: url('img/clay-2288458_1920.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 7%;
+	color: white;
+}
+
+.photos{
+	width: 100%;
+	height: auto;
+	border-radius: 15px 15px 15px 15px;
+	border: 2px grey groove;
+}
+
+.pagination li a{
+	color: black;
+	background-color: grey;
+	border:black 1px solid;
+	margin:100px 0;
+}
+
+.pagination li a:hover{
+	color: white;
+	background-color: black;
+	border:white 1px solid;
+	margin:100px 0;
 }
 
 
-.row{
-	text-align: center;
+/*Restaurants*/
+
+#restaurants{
+	height: 850px;
+	background: linear-gradient(to bottom, #F1F1F1, white);
+	padding-top: 7%;
 }
 
-.span12{
-	text-align: center;
+.restoCa{
+	padding-top: 20px;
 }
 
-.col-md-4{
-	text-align: center;
+.rest{
+	width: 200px;
+	height: 150px;
 }
 
-.col-md-2{
-
-	text-align: center;
+.restC{
+	text-align: left;
+	padding-top: 20px;
+	font-size: 100%;
 }
 
+.map{
+	width: 50%;
+	height: 500px;
+	margin-top: 100px;
+}
+
+/*Contact*/
+
+#contact{
+	height: 850px;
+	background-image: url('img/ice-tea-2250366_1920.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 6%;
+	color: white;
+}
+
+.panel{
+	background: linear-gradient(to bottom, grey, white);
+	color:black;
+}
+
+.boton{
+	border-radius: 15px 15px 15px 15px;
+	background-color: grey;
+	color: black;
+}
+
+.boton:hover{
+	border-radius: 15px 15px 15px 15px;
+	background-color: black;
+	color: white;
+}
